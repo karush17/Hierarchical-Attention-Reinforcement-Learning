@@ -1,6 +1,6 @@
 # Hierarchical-Attention in Reinforcement Learning for Stock Order Executions  
 
-Karush Suri, Shashank Saurav  
+[Karush Suri](https://karush17.github.io/), Shashank Saurav  
 
 Implementation of a hierarchical-attention based agent for trading applications using Q-Learning. The agent consisting of predictor and order sub-agents learns to trade on volatile stock sequences from the S&P500 market index in the custom-designed TradeEnv real-market simulation environment. Both sub-agents operate in coordination with each other by predicting the price and ordering a bid of buy/sell on the predicted price. This is carried by attending to past price sequences and obtaining price context vectors corresponding to each input price sequence. The model achieves competitive performance in comparison to modern-day trading algorithms by demonstrating higher rewards in the form of profit and higher risk free returns in the form of Sharpe Ratios. 
 
