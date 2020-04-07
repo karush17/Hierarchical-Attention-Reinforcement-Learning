@@ -1,4 +1,4 @@
-# Hierarchical-Attention  
+# Hierarchical-Attention in Reinforcement Learning for Stock Order Executions  
 
 Karush Suri, Shashank Saurav  
 
