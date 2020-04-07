@@ -23,7 +23,7 @@ Find out more- [Tutorial](https://nbviewer.jupyter.org/github/karush17/PyTorch-T
 # Results
 
 <center>Performance Comparison of Hierarchical Attention with a conventional RL trading scheme</center>  
-<img src="Results/compare.PNG" height="150" width="600" align="center" />  
+<p align="center"><img src="Results/compare.PNG" height="350" width="800" align="center" /></p>  
 
 <center>Average Rewards obtained over top S&P500 tickers during the COVID-19 outbreak</center>  
 <p align="center"><img src="Results/legend.PNG" height="20" width="150"></p>  
