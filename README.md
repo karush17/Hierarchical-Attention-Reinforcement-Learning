@@ -1,4 +1,4 @@
-# Hierarchical-Attention in Reinforcement Learning for Stock Order Executions  
+# Attentive Hierarchical Reinforcement Learning for Stock Order Executions  
 
 [Karush Suri](https://karush17.github.io/), Shashank Saurav  
 
