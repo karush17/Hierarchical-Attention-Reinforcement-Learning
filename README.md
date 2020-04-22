@@ -6,13 +6,15 @@ Implementation of a hierarchical-attention based agent for trading applications 
 
 <p align="center"><img src="Results/drawing.png" height="250" width="400" /></p>
 
-# Dependencies
-1. Python >= 3.5
-2. PyTorch >= 1.4
-3. Gym >= 0.17.1
-4. Stable-Baselines >= 2.9.0
-5. Pandas >= 1.0.3
-6. Numpy
+# Dependencies  
+```
+1. Python >= 3.5  
+2. PyTorch >= 1.4  
+3. Gym >= 0.17.1  
+4. Stable-Baselines >= 2.9.0  
+5. Pandas >= 1.0.3  
+6. Numpy  
+```  
 
 # Methods
 The trading agent buys/sells shares from a given ticker listed on the S&P500 index. The predictor model observes the current state which is a sequence of past six prices and predicts prices corresponding to the next-time step.  The order model observes the current price along with state in order to yield an action using Q-Learning. Both models make use of causal self-attention in memory cells in order to learn adverse trends and thus, depict robust behavior to market fluctuations. 
