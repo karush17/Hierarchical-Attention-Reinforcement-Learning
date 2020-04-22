@@ -8,12 +8,12 @@ Implementation of a hierarchical-attention based agent for trading applications 
 
 # Dependencies  
 ```
-1. Python >= 3.5  
-2. PyTorch >= 1.4  
-3. Gym >= 0.17.1  
-4. Stable-Baselines >= 2.9.0  
-5. Pandas >= 1.0.3  
-6. Numpy  
+Python >= 3.5  
+PyTorch >= 1.4  
+Gym >= 0.17.1  
+Stable-Baselines >= 2.9.0  
+Pandas >= 1.0.3  
+Numpy  
 ```  
 
 # Methods
