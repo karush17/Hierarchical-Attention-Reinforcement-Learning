@@ -19,9 +19,6 @@ Numpy
 # Methods
 The trading agent buys/sells shares from a given ticker listed on the S&P500 index. The predictor model observes the current state which is a sequence of past six prices and predicts prices corresponding to the next-time step.  The order model observes the current price along with state in order to yield an action using Q-Learning. Both models make use of causal self-attention in memory cells in order to learn adverse trends and thus, depict robust behavior to market fluctuations. 
 
-Find out more-  
- * [Tutorial](https://nbviewer.jupyter.org/github/karush17/PyTorch-Tutorials/blob/master/Tutorials/Reinforcement%20Learning/2516_Project.ipynb)  
-
 # Results
 
 <center>Performance Comparison of Hierarchical Attention with a conventional RL trading scheme</center>  
